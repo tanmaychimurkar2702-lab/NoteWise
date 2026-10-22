@@ -1,0 +1,12 @@
+MACHINE LEARNING & VECTOR EMBEDDINGS LECTURE NOTES
+
+Supervised Learning vs Unsupervised Learning:
+Supervised learning trains models using labeled datasets where ground truth outputs are provided (e.g. classification and regression). Unsupervised learning identifies underlying patterns, clusters, and representations from unlabeled inputs (e.g. K-Means clustering, PCA).
+
+Semantic Embeddings in NLP:
+Traditional keyword search relies on Lexical Matching (such as TF-IDF or BM25), which searches for exact words. Semantic search converts words, sentences, or paragraphs into dense vector representations in high-dimensional continuous vector space. Models like Sentence-BERT (MiniLM-L6-v2) capture contextual semantics: synonyms, paraphrases, and conceptual meaning.
+
+Vector Similarity Metrics:
+1. Cosine Similarity: Measures the cosine of the angle between two multi-dimensional vectors. When vectors are L2-normalized, cosine similarity equals the dot product (inner product).
+2. Euclidean Distance (L2): Geometric distance between points.
+FAISS (Facebook AI Similarity Search) provides high-performance vector indexing allowing billion-scale retrieval in sub-millisecond latencies.

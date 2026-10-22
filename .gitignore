@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Backend generated data & indices
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/indexes/*
+!backend/indexes/.gitkeep
+backend/notewise.db
+*.db
+*.sqlite3
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.env
+.env.local
+.DS_Store
+Thumbs.db
