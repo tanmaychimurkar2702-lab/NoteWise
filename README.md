@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NoteWise AI — Semantic Search Engine for College Notes and PDFs
 
 > **"Find the concept, not just the keyword."**  
@@ -256,3 +257,7 @@ NoteWise AI includes sample academic lecture notes in `sample_documents/` and an
 - **Hybrid Retrieval (BM25 + Dense Vectors)**: Reciprocal Rank Fusion (RRF) combining lexical BM25 and dense vector embeddings.
 - **Audio Lecture Transcription**: Transcribe voice recordings of professors using Whisper and index timestamps.
 - **Vector Quantization (IVF-PQ)**: Scale vector indexing to hundreds of thousands of documents with minimal RAM footprint.
+=======
+# NoteWise
+....
+>>>>>>> e9221bc775e2f46e05e3d498309275a0872b8467
